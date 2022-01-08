@@ -1,0 +1,23 @@
+body{
+    background-color: darkblue;
+}
+
+.berlian{
+    width:50px;
+    position: relative;
+    border-width: 0 30px 30px 30px;
+    border-style: solid;
+    border-color:transparent;
+    border-bottom-color:#FAFAFA;
+}
+
+.berlian::before{
+    content: "";
+    position: absolute;
+    border-width: 75px 55px 0 55px;
+    border-style: solid;
+    border-color: transparent;
+    border-top-color:#FAFAFA;
+    top:30px;
+    left:-30px;
+}
